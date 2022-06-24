@@ -106,4 +106,5 @@ int main()
 	NhapMang(a, dong, cot);
 	XuatMang(a, dong, cot);
 	DemSoPhanTuYenNgua(a, dong, cot);
-	
+	return 0;
+}
