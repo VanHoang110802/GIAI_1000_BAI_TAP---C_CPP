@@ -1,6 +1,6 @@
 Viết lại hàm cắt chuỗi (strtok): 
 chúng ta cần hàm tìm kiếm 1 cái chuỗi trong 1 chuỗi cho trước, xem vị trí đầu tiên nó nằm ở vị trí nào. Rồi cần 1 hàm cắt chuỗi đem chuỗi vừa tìm được vừa cắt được đó đem ra ngoài.
-(08:07:12, 19/02/2022 - đã hoàn thành ^^ - Bài này khó vcc, tốn kha khá time @@ ).
+(19/02/2022 - Đã hoàn thành ^^ - Bài này khó vcc, tốn kha khá time @@ ).
 
 /*
 Đê làm được hàm này, trước hết ta sẽ có hàm cắt chuỗi con trong đoạn từ [a,b] trong chuỗi s đã cho trước, nhưng bên C này ta không có hàm này, chỉ có bên C++ mới có(substr) vì vậy ta sẽ phải tự đi xây dựng hàm đó thôi.
