@@ -1,0 +1,1 @@
+Nhập một chuỗi bất kỳ, sau đó hỏi người dùng cần tách bắt đầu từ đâu trong chuỗi trở về sau.Ví dụ: Nhập chuỗi S1:”Trường Đại Học Tôn Đức Thắng”. Người nhập muốn tách bắt đầu từ chữ “Tôn” thì sẽ xuất ra chuỗi “Tôn Đức Thắng” ra màn hình
