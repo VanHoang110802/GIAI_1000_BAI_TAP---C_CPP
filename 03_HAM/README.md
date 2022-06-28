@@ -1,1 +1,2 @@
 - Các dạng bài tập về cách chia hàm.
+- Làm quen tham chiếu, tham trị.
