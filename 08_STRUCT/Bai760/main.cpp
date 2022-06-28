@@ -7,13 +7,13 @@ xac dinh xem, minh can nhung cai lop struct gi?
 - Lop ngay, sinh vien, lop hoc.
  */
 
-#include "Sinh_Vien.h"
+#include "Lop_Hoc.h"
 int main()
 {
-	 SINHVIEN sv;
-	 NhapSinhVien(sv);
-	 XuatSinhVien(sv);
-	 float dtb = DiemTB(sv);
-	 cout << "\nDiem trung binh mon : " << dtb;
+	 LOPHOC lh;
+	 NhapLop(lh);
+	 XuatLop(lh);
+	 cout << "\nThong tin sinh vien co diem trung binh cao nhat: \n";
+	 XuatThongTinCacSinhVienDTBMax(lh);
 	 return 0;
 }
