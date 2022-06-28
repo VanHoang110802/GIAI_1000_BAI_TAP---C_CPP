@@ -2,6 +2,7 @@
 
 #pragma warning(disable : 4996)
 #include<stdio.h>
+#include<stdlib.h>
 int main() {
 	int a = 10;
 	int* b;	// nên nhớ: con trỏ chứa 1 số nguyên địa chỉ
@@ -53,7 +54,7 @@ int main() {
 
 /* -------------------------------- Kích thước chuẩn  -------------------------------- */
 #include <stdio.h>
-
+#include<stdlib.h>
 int main()
 {
 	printf("sizeof(char*) = %d\n",sizeof(char*));         //4
@@ -95,6 +96,7 @@ int main() {
 /* -------------------------------- Toán tử con trỏ   -------------------------------- */
 
 #include <iostream>
+#include<stdlib.h>
 using namespace std;
 int main()
 {
