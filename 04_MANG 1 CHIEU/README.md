@@ -1,0 +1,9 @@
+- Các dạng bài tập về mảng 1 chiều:
+- Nhập xuất.
+- Tìm kiếm.
+- Liệt kê.
+- Sắp xếp.
+- Hoán Vị
+- Tính toán các phần tử.
+- Xử lí mảng con.
+- Đảo ...
