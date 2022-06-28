@@ -1,1 +1,1 @@
-Nói Chung:
+- Tổng hợp các bài tập về dạng IF - ELSE.
