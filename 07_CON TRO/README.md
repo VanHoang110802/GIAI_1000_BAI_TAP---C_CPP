@@ -1,1 +1,4 @@
 - Các thao tác cơ bản về con tró.
+- Nhập / xuất, cấp phát, giải phóng.
+- Các bài toán xoay quanh con trỏ cơ bản.
+- 1 số bài có liên quan đến toán tử.
