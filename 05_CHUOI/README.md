@@ -1,0 +1,4 @@
+- Các dạng bài tập về chuỗi:
+- Nhập xuất chuỗi
+- Viết lại các hàm mà ngôn ngữ khác không hỗ trợ.
+- Chuẩn hóa xâu, tìm kiếm, cắt chuỗi ...
