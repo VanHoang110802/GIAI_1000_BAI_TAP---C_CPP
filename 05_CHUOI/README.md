@@ -1,4 +1,4 @@
 - Các dạng bài tập về chuỗi:
 - Nhập xuất chuỗi
-- Viết lại các hàm mà ngôn ngữ khác không hỗ trợ.
+- Viết lại các hàm mà ngôn ngữ c++ không hỗ trợ và ngược lại.
 - Chuẩn hóa xâu, tìm kiếm, cắt chuỗi ...
