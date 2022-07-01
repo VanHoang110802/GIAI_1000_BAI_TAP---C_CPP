@@ -1,5 +1,6 @@
 /*
-Tạo 1 tập tin rồi cho vào tập tin 1 chuỗi bất kì. Hãy tạo 1 tập tin khác cũng có chứa chuỗi đó nhưng biến đổi chuỗi thành hoa hết. Còn nếu chuỗi hoa thì giữ nguyên
+Tạo 1 tập tin rồi cho vào tập tin 1 chuỗi bất kì. Hãy tạo 1 tập tin khác cũng có chứa chuỗi nhưng chuỗi đó là 1 chuỗi hoa. Còn nếu chuỗi đó là chuỗi hoa
+rồi thì giữ nguyên
 */
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
