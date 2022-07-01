@@ -1,3 +1,8 @@
+/*
+Viết chương trình kiểm tra tập tin đó xem:
+- Đã tồn tại hay chưa?
+- Chỉ được đọc hay chỉ được ghi hay được cả 2 ?
+*/
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<conio.h>
