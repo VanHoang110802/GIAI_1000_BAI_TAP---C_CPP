@@ -1,3 +1,7 @@
+/*
+Tạo 1 file bất kì và sao chép tạo mới 1 file giống hệt với file vừa tạo
+*/
+
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
