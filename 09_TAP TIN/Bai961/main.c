@@ -50,9 +50,9 @@ const char* XepLoai(float Dtb)
 }
 
 // Mở con trỏ thông qua 1 hàm thì con trỏ đó phải truyền vào dạng tham chiếu.
-void MoFile(FILE*& FileIn)
+void MoFile(FILE** FileIn)
 {
-	FileIn = fopen("INPUT.TXT", "r");
+	*FileIn = fopen("INPUT.TXT", "r");
 
 	// Kiểm tra xem file co ton tai hay khong ?
 	if (!FileIn)
@@ -67,7 +67,7 @@ int main()
 	// Mở file
 	FILE* FileIn;
 
-	MoFile(FileIn);
+	MoFile(&FileIn);
 
 	// Đọc file
 	char *ten;
