@@ -93,6 +93,7 @@ int main()
 
 	// đóng file lai.
 	fclose(FileOut);
-
+	free(ten);
+	free(xeploai);
 	return 0;
 }
