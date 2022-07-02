@@ -36,7 +36,7 @@ void NhapDuLieu(vanhoang& n)
 		cin >> n;
 		if (n<1) 
 		{
-			printf("\nSo luong phan tu nhap khong hop le, xin hay kiem tra lai!\n");
+			cout << "\nSo luong phan tu nhap khong hop le, xin hay kiem tra lai!\n";
 		}
 	} while (n<1);
 }
