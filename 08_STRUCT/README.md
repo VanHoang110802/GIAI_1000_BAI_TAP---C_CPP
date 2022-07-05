@@ -1,2 +1,3 @@
 - Các dạng bài tập về Dữ liệu cấu trúc (Struct).
 - Toán tử (Operator).
+- Tạo thư viện riêng để quản lí (.h, .cpp, .c).
