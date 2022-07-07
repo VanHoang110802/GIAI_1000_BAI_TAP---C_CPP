@@ -28,7 +28,7 @@ void XuatDaThuc(DATHUC *dt)
 	else
 	{
 		cout << dt->a[0] << " + ";
-		cout << dt->a[1] << "*x ";
+		cout << dt->a[1] << "*x + ";
 		for (int i = 2; i < dt->n; i++)
 		{
 			cout << dt->a[i] << "*x^" << i << " + ";
