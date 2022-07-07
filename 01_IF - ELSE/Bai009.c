@@ -20,7 +20,7 @@ int main() {
 		printf("thang co 30 ngay");
 	}
 	else {
-		if ((thang % 4 == 0 && thang % 100 != 0) || thang % 400 == 0) {
+		if ((nam % 4 == 0 && nam % 100 != 0) || nam % 400 == 0) {
 			printf("thang nay co 29 ngay");
 		}
 		else {
