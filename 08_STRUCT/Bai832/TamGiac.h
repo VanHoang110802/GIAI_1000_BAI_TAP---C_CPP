@@ -3,13 +3,13 @@
 
 #include "Diem.h"
 
-struct tamgiac
+struct TamGiac
 {
 	DIEM A;
 	DIEM B;
 	DIEM C;
 };
-typedef struct tamgiac TAMGIAC;
+typedef struct TamGiac TAMGIAC;
 
 void NhapTamGiac(TAMGIAC& );
 void XuatTamGiac(TAMGIAC );
