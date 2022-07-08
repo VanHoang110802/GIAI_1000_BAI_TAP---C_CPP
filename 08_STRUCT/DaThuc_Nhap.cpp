@@ -1,3 +1,20 @@
+/*
+phép chia thì tính từ từ: lấy hệ số của đơn thức bậc cao nhất trong vế trái chia cho hệ số của đơn thức bậc cao nhất bên vế phải, ra được hệ số của 1 đơn thức trong thương (quotient), rồi phải lấy đa thức bị chia (dividend) trừ đi tích của đơn thức này với đa thức chia (divisor). Lập lại tới khi nào đa thức bị chia có bậc bé hơn đa thức chia là được. Lúc này đa thức bị chia chính là phần dư (remainder) của phép chia đa thức.
+
+vd
+7x^3 + 6x^2 + 5x + 4 chia 3x^2 + 2x + 1
+
+vì bậc của đa thức bị chia là 3 > bậc của đa thức chia là 2:
+
+lấy hệ số 7 chia cho hệ số 3 ta có kết quả đơn thức của thương: (7/3)*(x^3-2) = 7x/3.
+lấy (7x/3) nhân với đa thức chia, trừ vô đa thức bị chia, đa thức bị chia còn 4x2/3 + 8x/3 + 4
+vì bậc của đa thức bị chia là 2 = bậc của đa thức chia là 2:
+
+lấy hệ số 4/3 chia cho hệ số 3 ta có kết quả đơn thức của thương: (4/9)*(x2-2) = 4/9.
+lấy (4/9) nhân với đa thức chia, trừ vô đa thức bị chia, đa thức bị chia còn 16x/9 + 32/9
+vì bậc của đa thức bị chia là 1 < bậc của đa thức chia là 2 => dừng. Kết quả thương là 7x/3 + 4/9, phần dư là 16x/9 + 32/9
+*/
+
 #include <iostream>
 using namespace std;
 
