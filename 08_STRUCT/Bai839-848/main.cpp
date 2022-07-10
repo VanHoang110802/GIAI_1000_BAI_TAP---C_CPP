@@ -72,3 +72,33 @@ Test: (10x2 – 7x - 12): (2x – 3) = 5x + 4
 
 -----------------------------------------------------------------------
 */
+
+#include "DaThuc.h"
+int main()
+{
+	DATHUC* dt1 = new DATHUC;
+	DATHUC* dt2 = new DATHUC;
+
+	NhapDaThuc(dt1);
+	NhapDaThuc(dt2);
+	XuatDaThuc(dt1);
+	cout << "\n";
+	XuatDaThuc(dt2);
+	cout << "\nTong cua 2 da thuc: ";
+	TinhTong2DT(dt1, dt2);
+	cout << "\nHieu cua 2 da thuc: ";
+	TinhHieu2DT(dt1, dt2);
+	cout << "\nTich cua 2 da thuc: ";
+	TinhTich2DT(dt1, dt2);
+	/*cout << "\nDao ham cua da thuc 1 la: ";
+	TinhDaoHamCap1(dt1);
+	cout << "\nDao ham cua da thuc 2 la: ";
+	TinhDaoHamCap1(dt2);*/
+	cout << "\nDao ham cap k (k = 1) cua da thuc (dt1) la: ";
+	TinhDaoHamCapk(dt1,2);
+	float tinh = TinhGiaTriX(dt1, 1);
+	cout << "\nKet qua cua da thuc (dt1) sau khi thay x = 2: " << tinh;
+	delete dt1;
+	delete dt2;
+	return 0;
+}
