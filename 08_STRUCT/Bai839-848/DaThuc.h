@@ -2,7 +2,6 @@
 #define _dathuc_
 
 #include <iostream>
-#include <conio.h>
 using namespace std;
 
 struct DaThuc
@@ -11,6 +10,7 @@ struct DaThuc
 	int sobac;
 };
 typedef struct DaThuc DATHUC;
+
 typedef float* Poly;
 /* Còn toán tử operator thì quá dễ rồi, mỗi hàm tính toán, các thứ thêm vào operator là xong */
 void NhapDaThuc(DATHUC*);
