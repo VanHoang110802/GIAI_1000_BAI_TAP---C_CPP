@@ -11,6 +11,7 @@ struct DaThuc
 	int sobac;
 };
 typedef struct DaThuc DATHUC;
+typedef float* Poly;
 /* Còn toán tử operator thì quá dễ rồi, mỗi hàm tính toán, các thứ thêm vào operator là xong */
 void NhapDaThuc(DATHUC*);
 void XuatDaThuc(DATHUC*);
