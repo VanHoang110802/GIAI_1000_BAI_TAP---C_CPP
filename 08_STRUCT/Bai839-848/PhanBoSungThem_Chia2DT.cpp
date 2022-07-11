@@ -143,8 +143,6 @@ int main()
 
 /* -------------------- SỬ DỤNG "pointer" -------------------- */
 #include <iostream>
-#include <vector>
-#include <string>
 using namespace std;
 
 struct DaThuc
