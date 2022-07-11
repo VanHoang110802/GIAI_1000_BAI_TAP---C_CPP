@@ -73,6 +73,12 @@ Test: (10x2 – 7x - 12): (2x – 3) = 5x + 4
 -----------------------------------------------------------------------
 */
 
+/*
+
+(-2x5 + 3x2 – 4x3) : 2x2 = -1x^3 + 3/2 – 2x^1.
+
+*/
+
 #include "DaThuc.h"
 int main()
 {
@@ -81,23 +87,33 @@ int main()
 
 	NhapDaThuc(dt1);
 	NhapDaThuc(dt2);
+	system("cls");
+	cout << "Da thuc 1: ";
 	XuatDaThuc(dt1);
-	cout << "\n";
+	cout << "\nDa thuc 2: ";
 	XuatDaThuc(dt2);
+	cout << "\n\n";
 	cout << "\nTong cua 2 da thuc: ";
 	TinhTong2DT(dt1, dt2);
 	cout << "\nHieu cua 2 da thuc: ";
 	TinhHieu2DT(dt1, dt2);
 	cout << "\nTich cua 2 da thuc: ";
 	TinhTich2DT(dt1, dt2);
+	TinhThuong2DT(dt1, dt2);
 	/*cout << "\nDao ham cua da thuc 1 la: ";
 	TinhDaoHamCap1(dt1);
 	cout << "\nDao ham cua da thuc 2 la: ";
 	TinhDaoHamCap1(dt2);*/
-	cout << "\nDao ham cap k (k = 1) cua da thuc (dt1) la: ";
-	TinhDaoHamCapk(dt1,2);
-	float tinh = TinhGiaTriX(dt1, 1);
-	cout << "\nKet qua cua da thuc (dt1) sau khi thay x = 2: " << tinh;
+	int k;
+	cout << "\Nhap k = ";
+	cin >> k;
+	cout << "\nDao ham cap k (k = "<<k<<") cua da thuc(dt1) la: ";
+	TinhDaoHamCapk(dt1,k);
+	int x;
+	cout << "\nNhap x = ";
+	cin >> x;
+	float tinh = TinhGiaTriX(dt1, x);
+	cout << "\nKet qua cua da thuc (dt1) sau khi thay x = 2: " << tinh << "\n\n";
 	delete dt1;
 	delete dt2;
 	return 0;
