@@ -8,11 +8,11 @@ void NhapPhanSo(PHANSO& ps)
 	{
 		cout << "Nhap vao mau so: ";
 		cin >> ps.MauSo;
-		if (ps.MauSo < 1)
+		if (ps.MauSo == 0)
 		{
 			cout << "\nMau so khong hop le,xin hay kiem tra lai!\n";
 		}
-	} while (ps.MauSo < 1);
+	} while (ps.MauSo == 0);
 }
 void XuatPhanSo(PHANSO ps)
 {
