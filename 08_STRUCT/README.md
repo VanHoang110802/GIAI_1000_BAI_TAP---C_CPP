@@ -1,4 +1,4 @@
 - Các dạng bài tập về Dữ liệu cấu trúc (Struct).
 - Toán tử (Operator).
 - Tạo thư viện riêng để quản lí (.h, .cpp, .c).
-- Từ 943 trở đi, mình sẽ lồng ghép các bài với phần Tập tin (file) luôn.
+- Từ 943 trở đi, mình sẽ lồng ghép 1 số các bài với phần Tập tin (file) luôn.
