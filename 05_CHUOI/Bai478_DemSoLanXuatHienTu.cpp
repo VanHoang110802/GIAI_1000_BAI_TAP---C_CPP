@@ -1,4 +1,5 @@
-Viết chương trình đếm tần suất xuất hiện của tất cả các ký tự (không phân biệt hoa thường) có trong chuỗi s được nhập từ bàn phím. In ra kết quả theo thứ tự từ điển (Tần suất xuất hiện của các chữ số 0-9, sau đó là a-z).
+Viết chương trình đếm tần suất xuất hiện của tất cả các ký tự (không phân biệt hoa thường) có trong chuỗi s được nhập từ bàn phím. In ra kết quả theo thứ tự từ điển
+(Tần suất xuất hiện của các chữ số 0-9, sau đó là a-z).
 Lưu ý: Chỉ đếm các ký tự thuộc bảng chữ cái tiếng anh (a-z, A-Z) và các chỗ số (0-9)
 Không in các ký tự có tần suất bằng 0.
 input: Lap Trinh Khong Kho!
