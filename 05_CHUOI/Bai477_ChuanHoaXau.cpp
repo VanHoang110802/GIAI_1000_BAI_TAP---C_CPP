@@ -1,4 +1,5 @@
-Có thể bạn đã biết, các danh từ riêng như tên người, tên địa danh là các danh từ riêng và chúng cần được viết hoa các chữ cái đầu mỗi từ. Tuy nhiên, người soạn thảo danh sách đã quá vội nên xảy ra lỗi viết hoa thường trong danh sách. Hãy viết 1 chương trình giúp mình chuẩn hóa lại nhé.
+Có thể bạn đã biết, các danh từ riêng như tên người, tên địa danh là các danh từ riêng và chúng cần được viết hoa các chữ cái đầu mỗi từ. Tuy nhiên, người soạn thảo
+danh sách đã quá vội nên xảy ra lỗi viết hoa thường trong danh sách. Hãy viết 1 chương trình giúp mình chuẩn hóa lại nhé.
 input: lAp Trinh Khong Kho	-> output: Lap Trinh Khong Kho
 	luyen code				Luyen Code
 
