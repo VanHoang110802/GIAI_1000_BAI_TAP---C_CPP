@@ -1,6 +1,7 @@
 Viết hàm nhận vào một chuỗi s và xuất các từ trên các dòng liên tiếp.
 /*
-Tìm 1 điểm bắt đầu 1 từ và điểm kết thúc của nó, thì đó là 1 từ rồi xuất ra, từ 1 vị trí bắt đầu, cho 1 vòng lặp chạy để tìm cái điểm kết thúc của từ, khi có kết thúc thì cập nhật lại vị trí để lần sau nó sẽ lặp lại vị trí vừa cập nhật lại, còn nếu không nó sẽ lặp chỗ khác là hơi mệt đấy.
+Tìm 1 điểm bắt đầu 1 từ và điểm kết thúc của nó, thì đó là 1 từ rồi xuất ra, từ 1 vị trí bắt đầu, cho 1 vòng lặp chạy để tìm cái điểm kết thúc của từ, khi có kết thúc
+thì cập nhật lại vị trí để lần sau nó sẽ lặp lại vị trí vừa cập nhật lại, còn nếu không nó sẽ lặp chỗ khác là hơi mệt đấy.
 Lưu ý: mình nên làm cái cách nào tránh việc thêm xóa phần tử, nếu thêm xóa phần tử thì sau này đi xử lý sẽ vất vả lắm 
 */
 
