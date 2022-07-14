@@ -1,4 +1,5 @@
-Cho một hình chữ nhật có các cạnh song song với các trục tọa độ và một điểm. Kiểm tra xem điểm đã cho có nằm trong hình chữ nhật đã cho không (nằm trên cạnh không được tính là nằm trong)?
+Cho một hình chữ nhật có các cạnh song song với các trục tọa độ và một điểm. Kiểm tra xem điểm đã cho có nằm trong hình chữ nhật đã cho không 
+(nằm trên cạnh không được tính là nằm trong)?
 Một dòng duy nhất chứa 66 số nguyên cách nhau bởi một khoảng trắng, mỗi cặp hai số liên tiếp trong 6 số là tọa độ của hai đỉnh đối của hình chữ nhật và của điểm.
 input: 0 0 3 3 2 2	->output: YES
 input: 0 1 3 3 3 2	-> output:NO
