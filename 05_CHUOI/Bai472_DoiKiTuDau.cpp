@@ -1,6 +1,7 @@
 Viết chương trình đổi những kí tự đầu tiên của mỗi từ thành chữ in hoa.
 /*
-Ta xét vị trí trước đó của kí tự đầu tiên, nếu trước đó mà là 1 khoảng trắng thì ta sẽ biến đổi kí tự đó thành hoa, còn không thì vẫn giữ nguyên (nếu trước đó là 1 khoảng trắng và tiếp theo sau là 1 cái gì đó khác khoảng trắng thì đó là ký tự đầu tiên của 1 từ)
+Ta xét vị trí trước đó của kí tự đầu tiên, nếu trước đó mà là 1 khoảng trắng thì ta sẽ biến đổi kí tự đó thành hoa, còn không thì vẫn giữ nguyên (nếu trước đó là 1
+khoảng trắng và tiếp theo sau là 1 cái gì đó khác khoảng trắng thì đó là ký tự đầu tiên của 1 từ)
  - Nếu đầu tiên của chuỗi không phải là khoảng trắng thì sẽ bị lỗi
 */
 #define _CRT_SECURE_NO_WARNINGS
