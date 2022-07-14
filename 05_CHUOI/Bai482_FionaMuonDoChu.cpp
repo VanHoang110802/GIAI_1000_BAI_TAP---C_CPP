@@ -1,4 +1,5 @@
-Fiona tự tin mình là người học rất giỏi môn ngữ văn nên muốn đố chữ các bạn trong lớp. Cô sẽ chuẩn bị một xâu ký tự, thay thế dấu* vào một vài vị trí và cho các bạn đoán xâu ban đầu. Nhưng vì bận làm việc nhà nên Fiona muốn các bạn giúp cô ấy chuẩn bị xâu đã mã hóa để cô ấy chỉ việc đi đố người khác thôi.
+Fiona tự tin mình là người học rất giỏi môn ngữ văn nên muốn đố chữ các bạn trong lớp. Cô sẽ chuẩn bị một xâu ký tự, thay thế dấu* vào một vài vị trí và cho các bạn
+đoán xâu ban đầu. Nhưng vì bận làm việc nhà nên Fiona muốn các bạn giúp cô ấy chuẩn bị xâu đã mã hóa để cô ấy chỉ việc đi đố người khác thôi.
 Các bạn hãy giúp Fiona mã hóa xâu theo quy tắc sau: đánh dấu*vào những vị trí số nguyên tố của xâu.
 input: LapTrinhPTITLapTrinhTuTraiTim  -> output: La**r*n*PTI*L*pTr*n*TuT*aiTim
 /*
