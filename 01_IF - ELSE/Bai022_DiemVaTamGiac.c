@@ -1,4 +1,5 @@
-Cho biết thông tin của tam giác gồm có 3 điểm A, B, C. Biết mỗi điểm sẽ có thông tin là hoành độ & tung độ. Viết chương trình nhập vào thông tin của 1 tam giác (nhập hoành độ, tung độ của lần lượt 3 điểm). Xuất tam giác ra màn hình, tính chu vi & diện tích của tam giác
+Cho biết thông tin của tam giác gồm có 3 điểm A, B, C. Biết mỗi điểm sẽ có thông tin là hoành độ & tung độ. Viết chương trình nhập vào thông tin của 1 tam giác 
+(nhập hoành độ, tung độ của lần lượt 3 điểm). Xuất tam giác ra màn hình, tính chu vi & diện tích của tam giác
 /*
 gợi ý: 
 - chuvi = 3 cạnh cộng lại
